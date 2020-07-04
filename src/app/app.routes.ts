@@ -8,7 +8,7 @@ import {ProgressComponent} from './pages/progress/progress.component';
 import {LoginComponent} from './login/login.component';
 
 const appRoutes: Routes=[
-    {
+    /*{
         path:'',
         component: PagesComponent,
         children:[
@@ -17,7 +17,7 @@ const appRoutes: Routes=[
             {path:'graficas',component: Graficas1Component},
             {path:'',redirectTo:'/dashboard',pathMatch:'full'},
         ]
-    },
+    },*/
    
     {path:'login',component: LoginComponent},
     {path:'register',component: RegisterComponent},       
