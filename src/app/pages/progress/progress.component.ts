@@ -15,11 +15,4 @@ export class ProgressComponent implements OnInit {
 
   ngOnInit(): void {
   } 
-
-  /*actualizar(event:number){
-
-    console.log('Evento:',event);
-    this.progreso1=event;
-
-  }*/
 }
